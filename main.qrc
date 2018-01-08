@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>ExampleRow.qml</file>
+        <file>images/button_24_0_0.png</file>
+        <file>images/button_24_0_1.png</file>
+        <file>images/button_24_0_2.png</file>
+        <file>images/btn_default.png</file>
+        <file>images/btn_hover.png</file>
+        <file>images/btn_pressed.png</file>
+    </qresource>
+</RCC>

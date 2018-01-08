@@ -1,6 +1,6 @@
 import QtQuick 2.3
 
-ButtonBase
+PLButtonBase
 {
     id: root_item
 

@@ -10,7 +10,7 @@ Rectangle {
     property string text: ""
     property alias progress: progress_tooltip_bar.progress
 
-    LoadingItem{
+    PLLoadingItem{
         id: loading_item
         anchors.centerIn: parent
         anchors.verticalCenterOffset: parent.height / 4
@@ -19,7 +19,7 @@ Rectangle {
         text: loading_cover.text
     }
 
-    ProgressTooltipPanel{
+    PLProgressTooltipPanel{
         id: progress_tooltip_bar
 
         title: loading_cover.text

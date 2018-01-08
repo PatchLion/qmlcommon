@@ -4,7 +4,7 @@
 var com = 0
 function showLoadingCover(parent, text) {
     if (0 === com) {
-        com = Qt.createComponent("CoverPanel.qml")
+        com = Qt.createComponent("PLCoverPanel.qml")
     }
 
     if (com.status === Component.Ready) {
@@ -26,7 +26,7 @@ function showLoadingCover(parent, text) {
 //带进度条遮罩窗体显示
 function showProgressBarCover(parent){
     if (0 === com) {
-        com = Qt.createComponent("CoverPanel.qml")
+        com = Qt.createComponent("PLCoverPanel.qml")
     }
 
     if (com.status === Component.Ready) {

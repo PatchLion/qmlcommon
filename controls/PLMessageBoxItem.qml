@@ -46,7 +46,7 @@ Rectangle
             anchors.left: parent.left
             anchors.right: parent.right
 
-            TextButtonItem{
+            PLTextButton{
                 width: 50
                 height: 25
                 text: "确定"
@@ -57,7 +57,7 @@ Rectangle
                 }
             }
 
-            TextButtonItem{
+            PLTextButton{
                 width: 50
                 height: 25
                 text: "取消"

@@ -6,23 +6,25 @@ Rectangle{
     property alias mouseArea: mouse_area
     signal clicked()
 
-    property string defaultColor: "#ECECEC"
-    property string hoverColor: "#ECECEC"
-    property string pressedColor: "#ECECEC"
-    property string disabledColor: "#F3F3F3"
+    property string defaultColor: "#F0F8FF"
+    property string hoverColor: "#E6E6FA"
+    property string pressedColor: "#778899"
+    property string disabledColor: "#8B8989"
 
     property string defaultBorderColor: "transparent"
     property string hoverBorderColor: "transparent"
     property string pressedBorderColor: "transparent"
     property string disabledBorderColor: "transparent"
 
+    radius: 5
+
     color: !enabled ? disabledColor :
-                      (mouseArea.pressed ? pressedColor :
-                                            (mouseArea.containsMouse ? hoverColor : defaultColor))
+                      (mouse_area.pressed ? pressedColor :
+                                            (mouse_area.containsMouse ? hoverColor : defaultColor))
 
     border.color: !enabled ? disabledBorderColor :
-                             (mouseArea.pressed ? pressedBorderColor :
-                                                   (mouseArea.containsMouse ? hoverBorderColor : defaultBorderColor))
+                             (mouse_area.pressed ? pressedBorderColor :
+                                                   (mouse_area.containsMouse ? hoverBorderColor : defaultBorderColor))
 
 
     MouseArea{

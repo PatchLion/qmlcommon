@@ -1,4 +1,23 @@
 <RCC>
     <qresource prefix="/">
+        <file>images/loading.gif</file>
+        <file>controls/PLButtonBase.qml</file>
+        <file>controls/PLCheckButtonBase.qml</file>
+        <file>controls/PLCheckButtonGroup.qml</file>
+        <file>controls/PLCheckTextButton.qml</file>
+        <file>controls/PLComboBoxItem.qml</file>
+        <file>controls/PLCoverPanel.js</file>
+        <file>controls/PLCoverPanel.qml</file>
+        <file>controls/PLFrameLessAndMoveableWindow.qml</file>
+        <file>controls/PLImageButtonItem.qml</file>
+        <file>controls/PLImageCheckButtonItem.qml</file>
+        <file>controls/PLLoadingItem.qml</file>
+        <file>controls/PLMessageBoxItem.js</file>
+        <file>controls/PLMessageBoxItem.qml</file>
+        <file>controls/PLProgressBar.qml</file>
+        <file>controls/PLProgressTooltipPanel.qml</file>
+        <file>controls/PLTextButton.qml</file>
+        <file>controls/PLToast.js</file>
+        <file>controls/PLToast.qml</file>
     </qresource>
 </RCC>

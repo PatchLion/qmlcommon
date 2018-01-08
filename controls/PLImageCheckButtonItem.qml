@@ -1,6 +1,6 @@
 import QtQuick 2.3
 
-CheckButtonBase
+PLCheckButtonBase
 {
     id: root_item
 

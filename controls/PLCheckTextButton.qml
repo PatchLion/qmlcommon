@@ -1,7 +1,6 @@
 import QtQuick 2.0
-import "../datas/AppConfigs.js" as Configs
 
-CheckButtonBase{
+PLCheckButtonBase{
     property alias text: text_item.text
 
     property string textDefaultColor: "#828282"
@@ -17,7 +16,6 @@ CheckButtonBase{
     {
         id: text_item
         anchors.centerIn: parent
-        font.family: Configs.DefaultFontFamily
         verticalAlignment: Qt.AlignVCenter
         horizontalAlignment: Qt.AlignHCenter
         color:!enabled ? textDisabledColor :

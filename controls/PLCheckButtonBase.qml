@@ -1,6 +1,6 @@
 import QtQuick 2.0
 
-ButtonBase{
+PLButtonBase{
     id: root_item
 
     property bool isChecked: false
@@ -20,6 +20,7 @@ ButtonBase{
         if (canUncheckByManual)
         {
             isChecked = !isChecked
+            //console.log(isChecked);
         }
         else
         {

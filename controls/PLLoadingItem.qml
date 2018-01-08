@@ -17,7 +17,7 @@ Item {
         antialiasing: true
     }
 
-    TextWithDefaultFamily
+    Text
     {
         id: text_item
         color: "#ffffff"

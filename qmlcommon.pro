@@ -1,6 +1,8 @@
 QT += quick
 CONFIG += c++11
 
+include(qmlcommon.pri)
+
 # The following define makes your compiler emit warnings if you use
 # any feature of Qt which as been marked deprecated (the exact warnings
 # depend on your compiler). Please consult the documentation of the
@@ -14,7 +16,7 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += main.cpp
 
-RESOURCES += qml.qrc
+RESOURCES += main.qrc
 
 # Additional import path used to resolve QML modules in Qt Creator's code model
 QML_IMPORT_PATH =

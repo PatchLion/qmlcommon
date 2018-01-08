@@ -8,7 +8,7 @@ Item {
     property alias title: title_item.text
     property alias progress: progressBar.progress
 
-    ProgressBar {
+    PLProgressBar {
         id: progressBar
         height: 10
 
@@ -19,7 +19,7 @@ Item {
         width: parent.width
     }
 
-    TextWithDefaultFamily {
+    Text {
         color: "#ffffff"
         text: Math.round(root_item.progress*100) + "%"
         font.pixelSize: 8
@@ -34,7 +34,7 @@ Item {
         anchors.top: parent.top
         anchors.topMargin: 2
     }
-    TextWithDefaultFamily {
+    Text {
         id: title_item
 
         color: "#ffffff"
